@@ -5,7 +5,7 @@
     {"id": "openai/gpt-4.1",              "name": "GPT-4.1",    "max_tokens": 512, "temperature": 0.0},
     {"id": "anthropic/claude-sonnet-4-5", "name": "Claude S45", "max_tokens": 512, "temperature": 0.0},
     {"id": "anthropic/claude-opus-4",     "name": "Claude O4",  "max_tokens": 512, "temperature": 0.0},
-    {"id": "google/gemini-2.0-flash",     "name": "Gem2Flash",  "max_tokens": 512, "temperature": 0.0},
+    {"id": "google/gemini-2.5-flash",     "name": "Gem25Flash", "max_tokens": 512, "temperature": 0.0},
     {"id": "google/gemini-1.5-pro",       "name": "Gem15Pro",   "max_tokens": 512, "temperature": 0.0}
   ],
   "model_families": {
@@ -13,7 +13,7 @@
     "openai/gpt-4.1":              "openai",
     "anthropic/claude-sonnet-4-5": "anthropic",
     "anthropic/claude-opus-4":     "anthropic",
-    "google/gemini-2.0-flash":     "google",
+    "google/gemini-2.5-flash":     "google",
     "google/gemini-1.5-pro":       "google"
   },
   "experiment": {
