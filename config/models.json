@@ -1,0 +1,20 @@
+{
+  "models": [
+    {"id": "openai/gpt-4o",                      "name": "GPT-4o",              "max_tokens": 512, "temperature": 0.0},
+    {"id": "anthropic/claude-sonnet-4-5",        "name": "Claude Sonnet 4.5",   "max_tokens": 512, "temperature": 0.0},
+    {"id": "google/gemini-2.0-flash",            "name": "Gemini 2.0 Flash",    "max_tokens": 512, "temperature": 0.0},
+    {"id": "meta-llama/llama-3.3-70b-instruct",  "name": "Llama 3.3 70B",       "max_tokens": 512, "temperature": 0.0}
+  ],
+  "model_families": {
+    "openai/gpt-4o":                     "openai",
+    "anthropic/claude-sonnet-4-5":       "anthropic",
+    "google/gemini-2.0-flash":           "google",
+    "meta-llama/llama-3.3-70b-instruct": "meta"
+  },
+  "experiment": {
+    "random_seed":        42,
+    "max_retries":         3,
+    "retry_backoff_base":  2.0,
+    "request_timeout":    30
+  }
+}
